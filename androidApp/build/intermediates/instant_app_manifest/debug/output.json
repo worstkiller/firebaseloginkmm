@@ -21,7 +21,7 @@
       "properties": {
         "packageId": "com.vikas.firebaseloginkmm.androidApp",
         "split": "",
-        "minSdkVersion": "24"
+        "minSdkVersion": "21"
       }
     }
   ]

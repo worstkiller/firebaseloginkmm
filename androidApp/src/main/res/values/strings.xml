@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="label_login_title">Create your\naccount</string>
+    <string name="label_login_in">Create your account</string>
+    <string name="label_sign_up">Sign up</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_your_name">Your Name</string>
+</resources>

@@ -13,3 +13,5 @@
 .externalNativeBuild
 .cxx
 .idea/
+shared/build/
+androidApp/build/

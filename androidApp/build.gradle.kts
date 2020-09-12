@@ -17,6 +17,8 @@ dependencies {
     implementation("com.google.android.material:material:1.2.1")
     implementation("androidx.appcompat:appcompat:1.2.0")
     implementation("androidx.constraintlayout:constraintlayout:2.0.1")
+    implementation("androidx.navigation:navigation-fragment-ktx:2.3.0")
+    implementation("androidx.navigation:navigation-ui-ktx:2.3.0")
 }
 android {
     compileSdkVersion(29)
@@ -31,5 +33,8 @@ android {
         getByName("release") {
             isMinifyEnabled = false
         }
+    }
+    viewBinding{
+        android.buildFeatures.viewBinding = true
     }
 }
