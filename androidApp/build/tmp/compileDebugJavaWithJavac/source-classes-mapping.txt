@@ -1,0 +1,2 @@
+com/vikas/firebaseloginkmm/androidApp/BuildConfig.java
+ com.vikas.firebaseloginkmm.androidApp.BuildConfig

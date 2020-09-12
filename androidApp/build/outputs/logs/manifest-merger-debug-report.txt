@@ -1,0 +1,156 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/vikas/workshop/examples/FirebaseLoginKMM/androidApp/src/main/AndroidManifest.xml:2:1-17:12
+INJECTED from /Users/vikas/workshop/examples/FirebaseLoginKMM/androidApp/src/main/AndroidManifest.xml:2:1-17:12
+INJECTED from /Users/vikas/workshop/examples/FirebaseLoginKMM/androidApp/src/main/AndroidManifest.xml:2:1-17:12
+INJECTED from /Users/vikas/workshop/examples/FirebaseLoginKMM/androidApp/src/main/AndroidManifest.xml:2:1-17:12
+MERGED from [:shared] /Users/vikas/workshop/examples/FirebaseLoginKMM/shared/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.material:material:1.2.1] /Users/vikas/.gradle/caches/transforms-2/files-2.1/2bf650c9f6787257808b39eedb807065/material-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/vikas/.gradle/caches/transforms-2/files-2.1/56a9c41944effeb44cc7fe2c78506160/constraintlayout-2.0.1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/1b4e564d219e942c110e225b51e537a9/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/9194e3fe1b04f0776f9e63a590039ae5/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/889efde7adff7bf23c860e730ca7dc3e/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/28507f69ba5e72095210e9b8288a2386/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/a02dda99648eb4e018e7ab0483a6e26e/appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/52dfc158912c49c6caef427f188dd3db/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/ab8cd907368df9408a55ac11b03ac7ef/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/be1c1bcb5e1f9e2c9b98ec45d2ecaaa5/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/a7fe04d405e4c496b14caa190f4edf95/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/69223982aa8fd623d60917b9068484fc/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/4ad938a8d3f89fb947d6ed7354c878aa/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/330c81400ab3b9e6afc4a8a3ee6d3f22/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/0015ea39bad6db22bdac8cfdc2673625/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/810a9e81843d1344084dd4ca71e94f47/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/5bb5d102ff36930b08654e4c2e8709e4/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/93084fa2f26d18cc311b1a6c8b7a9fbb/activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.3.1] /Users/vikas/.gradle/caches/transforms-2/files-2.1/9470938752a86c8c743a45980eb0534d/core-1.3.1/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/82774dc5607217c045753b8c1e6fdd64/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/e9b2fc2aeb8c2f5a56a601cc14faadcd/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/d33bf5819a50e1c8d275a03d23738289/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/1ccd6a1382b52a9fb00a3ea2f4179656/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/cc7b2235ba3d4b7c2c959985ce65fe5c/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/5d204320c06cbd0c15bf578bed540401/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/444576222f25fe9aec7f602de1cc5399/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/60b86208ca4733dcd13103ed28517569/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/99eff70a8e130f278d7202ffee88a052/annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/vikas/workshop/examples/FirebaseLoginKMM/androidApp/src/main/AndroidManifest.xml:2:1-17:12
+INJECTED from /Users/vikas/workshop/examples/FirebaseLoginKMM/androidApp/src/main/AndroidManifest.xml:2:1-17:12
+INJECTED from /Users/vikas/workshop/examples/FirebaseLoginKMM/androidApp/src/main/AndroidManifest.xml:2:1-17:12
+	package
+		ADDED from /Users/vikas/workshop/examples/FirebaseLoginKMM/androidApp/src/main/AndroidManifest.xml:2:70-117
+		INJECTED from /Users/vikas/workshop/examples/FirebaseLoginKMM/androidApp/src/main/AndroidManifest.xml
+		INJECTED from /Users/vikas/workshop/examples/FirebaseLoginKMM/androidApp/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/vikas/workshop/examples/FirebaseLoginKMM/androidApp/src/main/AndroidManifest.xml
+		ADDED from /Users/vikas/workshop/examples/FirebaseLoginKMM/androidApp/src/main/AndroidManifest.xml:2:1-17:12
+		INJECTED from /Users/vikas/workshop/examples/FirebaseLoginKMM/androidApp/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/vikas/workshop/examples/FirebaseLoginKMM/androidApp/src/main/AndroidManifest.xml
+		ADDED from /Users/vikas/workshop/examples/FirebaseLoginKMM/androidApp/src/main/AndroidManifest.xml:2:1-17:12
+		INJECTED from /Users/vikas/workshop/examples/FirebaseLoginKMM/androidApp/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/vikas/workshop/examples/FirebaseLoginKMM/androidApp/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/vikas/workshop/examples/FirebaseLoginKMM/androidApp/src/main/AndroidManifest.xml:4:5-15:19
+MERGED from [com.google.android.material:material:1.2.1] /Users/vikas/.gradle/caches/transforms-2/files-2.1/2bf650c9f6787257808b39eedb807065/material-1.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.2.1] /Users/vikas/.gradle/caches/transforms-2/files-2.1/2bf650c9f6787257808b39eedb807065/material-1.2.1/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/vikas/.gradle/caches/transforms-2/files-2.1/56a9c41944effeb44cc7fe2c78506160/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/vikas/.gradle/caches/transforms-2/files-2.1/56a9c41944effeb44cc7fe2c78506160/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.3.1] /Users/vikas/.gradle/caches/transforms-2/files-2.1/9470938752a86c8c743a45980eb0534d/core-1.3.1/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.1] /Users/vikas/.gradle/caches/transforms-2/files-2.1/9470938752a86c8c743a45980eb0534d/core-1.3.1/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/82774dc5607217c045753b8c1e6fdd64/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/82774dc5607217c045753b8c1e6fdd64/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.1] /Users/vikas/.gradle/caches/transforms-2/files-2.1/9470938752a86c8c743a45980eb0534d/core-1.3.1/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/vikas/workshop/examples/FirebaseLoginKMM/androidApp/src/main/AndroidManifest.xml:6:13-39
+	android:allowBackup
+		ADDED from /Users/vikas/workshop/examples/FirebaseLoginKMM/androidApp/src/main/AndroidManifest.xml:5:13-40
+	android:theme
+		ADDED from /Users/vikas/workshop/examples/FirebaseLoginKMM/androidApp/src/main/AndroidManifest.xml:7:13-44
+activity#com.vikas.firebaseloginkmm.androidApp.MainActivity
+ADDED from /Users/vikas/workshop/examples/FirebaseLoginKMM/androidApp/src/main/AndroidManifest.xml:8:9-14:20
+	android:name
+		ADDED from /Users/vikas/workshop/examples/FirebaseLoginKMM/androidApp/src/main/AndroidManifest.xml:8:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/vikas/workshop/examples/FirebaseLoginKMM/androidApp/src/main/AndroidManifest.xml:9:13-13:29
+action#android.intent.action.MAIN
+ADDED from /Users/vikas/workshop/examples/FirebaseLoginKMM/androidApp/src/main/AndroidManifest.xml:10:17-68
+	android:name
+		ADDED from /Users/vikas/workshop/examples/FirebaseLoginKMM/androidApp/src/main/AndroidManifest.xml:10:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/vikas/workshop/examples/FirebaseLoginKMM/androidApp/src/main/AndroidManifest.xml:12:17-76
+	android:name
+		ADDED from /Users/vikas/workshop/examples/FirebaseLoginKMM/androidApp/src/main/AndroidManifest.xml:12:27-74
+uses-sdk
+INJECTED from /Users/vikas/workshop/examples/FirebaseLoginKMM/androidApp/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/vikas/workshop/examples/FirebaseLoginKMM/androidApp/src/main/AndroidManifest.xml
+INJECTED from /Users/vikas/workshop/examples/FirebaseLoginKMM/androidApp/src/main/AndroidManifest.xml
+MERGED from [:shared] /Users/vikas/workshop/examples/FirebaseLoginKMM/shared/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:shared] /Users/vikas/workshop/examples/FirebaseLoginKMM/shared/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.2.1] /Users/vikas/.gradle/caches/transforms-2/files-2.1/2bf650c9f6787257808b39eedb807065/material-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.2.1] /Users/vikas/.gradle/caches/transforms-2/files-2.1/2bf650c9f6787257808b39eedb807065/material-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/vikas/.gradle/caches/transforms-2/files-2.1/56a9c41944effeb44cc7fe2c78506160/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/vikas/.gradle/caches/transforms-2/files-2.1/56a9c41944effeb44cc7fe2c78506160/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/1b4e564d219e942c110e225b51e537a9/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/1b4e564d219e942c110e225b51e537a9/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/9194e3fe1b04f0776f9e63a590039ae5/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/9194e3fe1b04f0776f9e63a590039ae5/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/889efde7adff7bf23c860e730ca7dc3e/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/889efde7adff7bf23c860e730ca7dc3e/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/28507f69ba5e72095210e9b8288a2386/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/28507f69ba5e72095210e9b8288a2386/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/a02dda99648eb4e018e7ab0483a6e26e/appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/a02dda99648eb4e018e7ab0483a6e26e/appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/52dfc158912c49c6caef427f188dd3db/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/52dfc158912c49c6caef427f188dd3db/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/ab8cd907368df9408a55ac11b03ac7ef/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/ab8cd907368df9408a55ac11b03ac7ef/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/be1c1bcb5e1f9e2c9b98ec45d2ecaaa5/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/be1c1bcb5e1f9e2c9b98ec45d2ecaaa5/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/a7fe04d405e4c496b14caa190f4edf95/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/a7fe04d405e4c496b14caa190f4edf95/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/69223982aa8fd623d60917b9068484fc/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/69223982aa8fd623d60917b9068484fc/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/4ad938a8d3f89fb947d6ed7354c878aa/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/4ad938a8d3f89fb947d6ed7354c878aa/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/330c81400ab3b9e6afc4a8a3ee6d3f22/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/330c81400ab3b9e6afc4a8a3ee6d3f22/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/0015ea39bad6db22bdac8cfdc2673625/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/0015ea39bad6db22bdac8cfdc2673625/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/810a9e81843d1344084dd4ca71e94f47/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/810a9e81843d1344084dd4ca71e94f47/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/5bb5d102ff36930b08654e4c2e8709e4/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/5bb5d102ff36930b08654e4c2e8709e4/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/93084fa2f26d18cc311b1a6c8b7a9fbb/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/93084fa2f26d18cc311b1a6c8b7a9fbb/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] /Users/vikas/.gradle/caches/transforms-2/files-2.1/9470938752a86c8c743a45980eb0534d/core-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] /Users/vikas/.gradle/caches/transforms-2/files-2.1/9470938752a86c8c743a45980eb0534d/core-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/82774dc5607217c045753b8c1e6fdd64/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/82774dc5607217c045753b8c1e6fdd64/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/e9b2fc2aeb8c2f5a56a601cc14faadcd/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/e9b2fc2aeb8c2f5a56a601cc14faadcd/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/d33bf5819a50e1c8d275a03d23738289/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/d33bf5819a50e1c8d275a03d23738289/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/1ccd6a1382b52a9fb00a3ea2f4179656/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/1ccd6a1382b52a9fb00a3ea2f4179656/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/cc7b2235ba3d4b7c2c959985ce65fe5c/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/cc7b2235ba3d4b7c2c959985ce65fe5c/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/5d204320c06cbd0c15bf578bed540401/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/5d204320c06cbd0c15bf578bed540401/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/444576222f25fe9aec7f602de1cc5399/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/444576222f25fe9aec7f602de1cc5399/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/60b86208ca4733dcd13103ed28517569/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/60b86208ca4733dcd13103ed28517569/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/99eff70a8e130f278d7202ffee88a052/annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/vikas/.gradle/caches/transforms-2/files-2.1/99eff70a8e130f278d7202ffee88a052/annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/vikas/workshop/examples/FirebaseLoginKMM/androidApp/src/main/AndroidManifest.xml
+INJECTED from /Users/vikas/workshop/examples/FirebaseLoginKMM/androidApp/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/vikas/workshop/examples/FirebaseLoginKMM/androidApp/src/main/AndroidManifest.xml
+		ADDED from /Users/vikas/workshop/examples/FirebaseLoginKMM/androidApp/src/main/AndroidManifest.xml
+		INJECTED from /Users/vikas/workshop/examples/FirebaseLoginKMM/androidApp/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/vikas/workshop/examples/FirebaseLoginKMM/androidApp/src/main/AndroidManifest.xml
+		ADDED from /Users/vikas/workshop/examples/FirebaseLoginKMM/androidApp/src/main/AndroidManifest.xml
+		INJECTED from /Users/vikas/workshop/examples/FirebaseLoginKMM/androidApp/src/main/AndroidManifest.xml
