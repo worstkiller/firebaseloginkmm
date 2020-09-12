@@ -5,4 +5,5 @@
     <color name="colorAccent">#03DAC5</color>
     <color name="windowColor">#f5f5f3</color>
     <color name="textSecondaryColor">#f5f5f3</color>
+    <color name="textColorSecondary">#272727</color>
 </resources>
