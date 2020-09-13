@@ -23,7 +23,7 @@ class SignUpViewModel : ObservableObject{
         //here make an api call to signup the user data in firebase
         //showLoader.toggle()
         //now call common code to signup using firebase
-        print("Signup clicked")
+        print("Signup clicked \(signUpModel.email)")
         isLoggedIn.toggle()
     }
     
@@ -31,7 +31,7 @@ class SignUpViewModel : ObservableObject{
      call this method to get the signed up status
      */
     func getLoggedIn()->Bool{
-        return true
+        return false
     }
     
 }
