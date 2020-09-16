@@ -4,6 +4,7 @@ plugins {
     kotlin("multiplatform")
     id("com.android.library")
     id("kotlin-android-extensions")
+    kotlin("native.cocoapods")
 }
 group = "com.vikas.firebaseloginkmm"
 version = "1.0-SNAPSHOT"
@@ -23,6 +24,14 @@ kotlin {
             }
         }
     }
+
+    cocoapods {
+        // Configure fields required by CocoaPods.
+        summary = "Kotlin Multiplatform Firebase login sample"
+        homepage = "https://github.com/worstkiller/firebaseloginkmm"
+        pod("Firebase/Auth")
+    }
+
     sourceSets {
         val commonMain by getting
         val commonTest by getting {
