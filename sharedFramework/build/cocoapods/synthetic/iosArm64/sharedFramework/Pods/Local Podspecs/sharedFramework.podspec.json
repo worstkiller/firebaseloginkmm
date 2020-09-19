@@ -14,7 +14,7 @@
   "libraries": "c++",
   "module_name": "sharedFramework_umbrella",
   "dependencies": {
-    "Firebase/Database": [
+    "Firebase/Auth": [
 
     ]
   },

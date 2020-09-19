@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
 
                 
 
-    spec.dependency 'Firebase/Database'
+    spec.dependency 'Firebase/Auth'
 
     spec.pod_target_xcconfig = {
         'KOTLIN_TARGET[sdk=iphonesimulator*]' => 'ios_x64',

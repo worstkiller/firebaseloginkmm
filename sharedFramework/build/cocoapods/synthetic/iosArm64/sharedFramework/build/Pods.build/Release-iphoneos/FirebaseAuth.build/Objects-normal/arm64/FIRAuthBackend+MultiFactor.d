@@ -1,0 +1,25 @@
+dependencies: \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/FirebaseAuth/FirebaseAuth/Sources/Backend/FIRAuthBackend+MultiFactor.m \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/build/Pods.build/Release-iphoneos/FirebaseAuth.build/module.modulemap \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/FirebaseAuth/FirebaseAuth/Sources/Backend/FIRAuthBackend+MultiFactor.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/FirebaseAuth/FirebaseAuth/Sources/Backend/FIRAuthBackend.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/FirebaseAuth/FirebaseAuth/Sources/Backend/FIRAuthRPCRequest.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/FirebaseAuth/FirebaseAuth/Sources/Backend/FIRAuthRPCResponse.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/FirebaseAuth/FirebaseAuth/Sources/Backend/RPC/MultiFactor/Enroll/FIRFinalizeMFAEnrollmentRequest.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/FirebaseAuth/FirebaseAuth/Sources/Backend/FIRIdentityToolkitRequest.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/FirebaseAuth/FirebaseAuth/Sources/Backend/FIRAuthRequestConfiguration.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/FirebaseAuth/FirebaseAuth/Sources/Backend/RPC/Proto/Phone/FIRAuthProtoFinalizeMFAPhoneRequestInfo.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/FirebaseAuth/FirebaseAuth/Sources/Backend/RPC/Proto/FIRAuthProto.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/FirebaseAuth/FirebaseAuth/Sources/Backend/RPC/MultiFactor/Enroll/FIRFinalizeMFAEnrollmentResponse.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/FirebaseAuth/FirebaseAuth/Sources/Backend/RPC/Proto/Phone/FIRAuthProtoFinalizeMFAPhoneResponseInfo.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/FirebaseAuth/FirebaseAuth/Sources/Backend/RPC/MultiFactor/Enroll/FIRStartMFAEnrollmentRequest.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/FirebaseAuth/FirebaseAuth/Sources/Backend/RPC/Proto/Phone/FIRAuthProtoStartMFAPhoneRequestInfo.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/FirebaseAuth/FirebaseAuth/Sources/SystemService/FIRAuthAppCredential.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/FirebaseAuth/FirebaseAuth/Sources/Backend/RPC/MultiFactor/Enroll/FIRStartMFAEnrollmentResponse.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/FirebaseAuth/FirebaseAuth/Sources/Backend/RPC/Proto/Phone/FIRAuthProtoStartMFAPhoneResponseInfo.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/FirebaseAuth/FirebaseAuth/Sources/Backend/RPC/MultiFactor/SignIn/FIRFinalizeMFASignInRequest.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/FirebaseAuth/FirebaseAuth/Sources/Backend/RPC/MultiFactor/SignIn/FIRFinalizeMFASignInResponse.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/FirebaseAuth/FirebaseAuth/Sources/Backend/RPC/MultiFactor/SignIn/FIRStartMFASignInRequest.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/FirebaseAuth/FirebaseAuth/Sources/Backend/RPC/MultiFactor/SignIn/FIRStartMFASignInResponse.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/FirebaseAuth/FirebaseAuth/Sources/Backend/RPC/MultiFactor/Unenroll/FIRWithdrawMFARequest.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/FirebaseAuth/FirebaseAuth/Sources/Backend/RPC/MultiFactor/Unenroll/FIRWithdrawMFAResponse.h
