@@ -1,0 +1,19 @@
+dependencies: \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/GDTCORFlatFileStorage.m \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/build/Pods.build/Release-iphoneos/GoogleDataTransport.build/module.modulemap \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Private/GDTCORFlatFileStorage.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Public/GoogleDataTransport/GDTCORLifecycle.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Public/GoogleDataTransport/GDTCORPlatform.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Public/GoogleDataTransport/GDTCORStorageEventSelector.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Public/GoogleDataTransport/GDTCORTargets.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Public/GoogleDataTransport/GDTCORStorageProtocol.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Public/GoogleDataTransport/GDTCORAssert.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Public/GoogleDataTransport/GDTCORConsoleLogger.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Public/GoogleDataTransport/GDTCOREvent.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Public/GoogleDataTransport/GDTCOREventDataObject.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Private/GDTCOREvent_Private.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Public/GoogleDataTransport/GDTCORClock.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Private/GDTCORRegistrar_Private.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Public/GoogleDataTransport/GDTCORRegistrar.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Public/GoogleDataTransport/GDTCORUploader.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Private/GDTCORUploadCoordinator.h

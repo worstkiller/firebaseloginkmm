@@ -1,0 +1,7 @@
+dependencies: \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/FirebaseDatabase/FirebaseDatabase/Sources/third_party/FImmutableSortedDictionary/FImmutableSortedDictionary/FTreeSortedDictionaryEnumerator.m \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/build/Pods.build/Release-iphoneos/FirebaseDatabase.build/module.modulemap \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/FirebaseDatabase/FirebaseDatabase/Sources/third_party/FImmutableSortedDictionary/FImmutableSortedDictionary/FTreeSortedDictionaryEnumerator.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/FirebaseDatabase/FirebaseDatabase/Sources/third_party/FImmutableSortedDictionary/FImmutableSortedDictionary/FTreeSortedDictionary.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/FirebaseDatabase/FirebaseDatabase/Sources/third_party/FImmutableSortedDictionary/FImmutableSortedDictionary/FImmutableSortedDictionary.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/FirebaseDatabase/FirebaseDatabase/Sources/third_party/FImmutableSortedDictionary/FImmutableSortedDictionary/FLLRBNode.h

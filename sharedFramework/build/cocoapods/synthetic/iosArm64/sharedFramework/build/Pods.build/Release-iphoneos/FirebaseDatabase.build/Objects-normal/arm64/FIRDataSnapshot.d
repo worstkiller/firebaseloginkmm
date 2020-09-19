@@ -1,0 +1,25 @@
+dependencies: \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/FirebaseDatabase/FirebaseDatabase/Sources/Api/FIRDataSnapshot.m \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/build/Pods.build/Release-iphoneos/FirebaseDatabase.build/module.modulemap \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/FirebaseDatabase/FirebaseDatabase/Sources/Public/FirebaseDatabase/FIRDataSnapshot.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/FirebaseDatabase/FirebaseDatabase/Sources/Api/Private/FIRDataSnapshot_Private.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/FirebaseDatabase/FirebaseDatabase/Sources/Api/Private/FTypedefs_Private.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/FirebaseDatabase/FirebaseDatabase/Sources/Snapshot/FIndexedNode.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/FirebaseDatabase/FirebaseDatabase/Sources/FIndex.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/FirebaseDatabase/FirebaseDatabase/Sources/FNamedNode.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/FirebaseDatabase/FirebaseDatabase/Sources/Snapshot/FNode.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/FirebaseDatabase/FirebaseDatabase/Sources/Core/Utilities/FPath.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/FirebaseDatabase/FirebaseDatabase/Sources/FTransformedEnumerator.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/FirebaseDatabase/FirebaseDatabase/Sources/Public/FirebaseDatabase/FIRDatabaseReference.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/FirebaseDatabase/FirebaseDatabase/Sources/Public/FirebaseDatabase/FIRDatabase.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/FirebaseDatabase/FirebaseDatabase/Sources/Public/FirebaseDatabase/FIRDatabaseQuery.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/FirebaseDatabase/FirebaseDatabase/Sources/Public/FirebaseDatabase/FIRDataEventType.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/FirebaseDatabase/FirebaseDatabase/Sources/Public/FirebaseDatabase/FIRMutableData.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/FirebaseDatabase/FirebaseDatabase/Sources/Public/FirebaseDatabase/FIRServerValue.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/FirebaseDatabase/FirebaseDatabase/Sources/Public/FirebaseDatabase/FIRTransactionResult.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/FirebaseDatabase/FirebaseDatabase/Sources/Snapshot/FChildrenNode.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/FirebaseDatabase/FirebaseDatabase/Sources/Utilities/FTypedefs.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/FirebaseDatabase/FirebaseDatabase/Sources/third_party/FImmutableSortedDictionary/FImmutableSortedDictionary/FImmutableSortedDictionary.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/FirebaseDatabase/FirebaseDatabase/Sources/Utilities/FValidation.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/FirebaseDatabase/FirebaseDatabase/Sources/Utilities/FParsedUrl.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/FirebaseDatabase/FirebaseDatabase/Sources/Core/FRepoInfo.h

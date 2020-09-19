@@ -17,5 +17,5 @@ rootProject.name = "FirebaseLoginKMM"
 
 
 include(":androidApp")
-include(":shared")
+include(":sharedFramework")
 
