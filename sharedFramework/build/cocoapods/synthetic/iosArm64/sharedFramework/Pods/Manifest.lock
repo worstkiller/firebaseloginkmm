@@ -1,10 +1,5 @@
 PODS:
-  - Firebase/Auth (6.30.0):
-    - Firebase/CoreOnly
-    - FirebaseAuth (~> 6.8.0)
-  - Firebase/CoreOnly (6.30.0):
-    - FirebaseCore (= 6.10.0)
-  - FirebaseAuth (6.8.0):
+  - FirebaseAuth (6.9.1):
     - FirebaseCore (~> 6.10)
     - GoogleUtilities/AppDelegateSwizzler (~> 6.7)
     - GoogleUtilities/Environment (~> 6.7)
@@ -43,15 +38,13 @@ PODS:
   - nanopb/encode (1.30905.0)
   - PromisesObjC (1.2.10)
   - sharedFramework (1.0-SNAPSHOT):
-    - Firebase/Auth
+    - FirebaseAuth
 
 DEPENDENCIES:
   - sharedFramework (from `../../../../../sharedFramework.podspec`)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
-    - Firebase
-    - FirebaseAuth
     - FirebaseCore
     - FirebaseCoreDiagnostics
     - GoogleDataTransport
@@ -59,14 +52,15 @@ SPEC REPOS:
     - GTMSessionFetcher
     - nanopb
     - PromisesObjC
+  trunk:
+    - FirebaseAuth
 
 EXTERNAL SOURCES:
   sharedFramework:
     :path: "../../../../../sharedFramework.podspec"
 
 SPEC CHECKSUMS:
-  Firebase: 210f41ca352067d83b1ba4fd2e7fb49a0c017397
-  FirebaseAuth: 300433de340c1b058dbb8aec224a3f1bcfda5184
+  FirebaseAuth: f7b269b33c1e842a35400ddc9bbc8b03cdc47ba3
   FirebaseCore: 9a41e2de78fef10f63cee30ab10e2945266bc1fc
   FirebaseCoreDiagnostics: 7535fe695737f8c5b350584292a70b7f8ff0357b
   GoogleDataTransport: 672fb0ce96fe7f7f31d43672fca62ad2c9c86f7b
@@ -74,7 +68,7 @@ SPEC CHECKSUMS:
   GTMSessionFetcher: 6f5c8abbab8a9bce4bb3f057e317728ec6182b10
   nanopb: c43f40fadfe79e8b8db116583945847910cbabc9
   PromisesObjC: b14b1c6b68e306650688599de8a45e49fae81151
-  sharedFramework: c73bc27c50f926d0c91bba20093c19edcc03a5c1
+  sharedFramework: ffee0479ba403d340ae36b64e7514f62d429f120
 
 PODFILE CHECKSUM: aa523deaf982b459f45976b336b1b45bc7f8700a
 

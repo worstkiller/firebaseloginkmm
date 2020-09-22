@@ -8,13 +8,13 @@ Pod::Spec.new do |spec|
     spec.summary                  = 'Kotlin Multiplatform Firebase login sample'
 
     spec.static_framework         = true
-    spec.vendored_frameworks      = "build/cocoapods/framework/sharedFramework.framework"
+    spec.vendored_frameworks      = "build/cocoapods/framework/firebaseLoginSDK.framework"
     spec.libraries                = "c++"
     spec.module_name              = "#{spec.name}_umbrella"
 
                 
 
-    spec.dependency 'Firebase/Auth'
+    spec.dependency 'FirebaseAuth'
 
     spec.pod_target_xcconfig = {
         'KOTLIN_TARGET[sdk=iphonesimulator*]' => 'ios_x64',

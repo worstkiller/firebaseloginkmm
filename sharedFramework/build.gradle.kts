@@ -23,8 +23,8 @@ kotlin {
         // Configure fields required by CocoaPods.
         summary = "Kotlin Multiplatform Firebase login sample"
         homepage = "https://github.com/worstkiller/firebaseloginkmm"
-        pod("Firebase/Auth")
-        frameworkName = "sharedFramework"
+        pod("FirebaseAuth")
+        frameworkName = "firebaseLoginSDK"
     }
 
     sourceSets {

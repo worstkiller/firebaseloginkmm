@@ -1,5 +1,4 @@
 import SwiftUI
-import sharedFramework
 
 struct ContentView: View {
     

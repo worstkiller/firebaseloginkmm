@@ -1,6 +1,0 @@
-framework module sharedFramework {
-  umbrella header "dummy.h"
-
-  export *
-  module * { export * }
-}

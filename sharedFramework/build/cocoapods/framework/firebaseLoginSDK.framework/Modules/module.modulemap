@@ -1,0 +1,6 @@
+framework module firebaseLoginSDK {
+  umbrella header "dummy.h"
+
+  export *
+  module * { export * }
+}

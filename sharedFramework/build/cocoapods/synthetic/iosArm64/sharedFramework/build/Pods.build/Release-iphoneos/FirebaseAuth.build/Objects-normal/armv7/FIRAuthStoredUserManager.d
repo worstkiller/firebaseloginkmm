@@ -13,4 +13,5 @@ dependencies: \
   /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRMultiFactorSession.h \
   /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRUserInfo.h \
   /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/FirebaseAuth/FirebaseAuth/Sources/Storage/FIRAuthKeychainServices.h \
-  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/FirebaseAuth/FirebaseAuth/Sources/Storage/FIRAuthUserDefaults.h
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/FirebaseAuth/FirebaseAuth/Sources/Storage/FIRAuthUserDefaults.h \
+  /Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/build/cocoapods/synthetic/iosArm64/sharedFramework/Pods/FirebaseAuth/FirebaseAuth/Sources/User/FIRUser_Internal.h
