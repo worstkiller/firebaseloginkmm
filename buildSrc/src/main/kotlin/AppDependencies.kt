@@ -1,6 +1,6 @@
 import org.gradle.api.artifacts.dsl.DependencyHandler
 
-object AppDependencies {
+sealed class AppDependencies {
     //std lib
     val kotlinStdLib = "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${Versions.kotlin}"
 

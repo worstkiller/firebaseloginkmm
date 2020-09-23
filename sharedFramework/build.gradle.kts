@@ -43,6 +43,7 @@ kotlin {
             dependencies {
                 implementation("com.google.firebase:firebase-auth:${Versions.firebase_auth_android}")
                 implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:${Versions.coroutines}")
+                implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:${Versions.viewmodel}")
             }
         }
         val androidTest by getting {

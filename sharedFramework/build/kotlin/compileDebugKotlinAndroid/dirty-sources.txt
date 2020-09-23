@@ -1,0 +1,7 @@
+/Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/src/commonMain/kotlin/com/vikas/firebaseloginkmm/shared/Greeting.kt
+/Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/src/commonMain/kotlin/com/vikas/firebaseloginkmm/shared/model/CommonViewModelInterface.kt
+/Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/src/commonMain/kotlin/com/vikas/firebaseloginkmm/shared/Platform.kt
+/Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/src/androidMain/kotlin/com/vikas/firebaseloginkmm/shared/Platform.kt
+/Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/src/commonMain/kotlin/com/vikas/firebaseloginkmm/shared/FirebaseSignViewModel.kt
+/Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/src/commonMain/kotlin/com/vikas/firebaseloginkmm/shared/model/FirebaseResponseModel.kt
+/Users/vikas/workshop/examples/FirebaseLoginKMM/sharedFramework/src/androidMain/kotlin/com/vikas/firebaseloginkmm/shared/viewmodel/FirebaseSignViewModel.kt

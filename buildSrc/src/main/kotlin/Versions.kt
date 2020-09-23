@@ -12,6 +12,7 @@ object Versions {
     val firebase_auth_android = "19.4.0"
     val coroutines = "1.3.9"
     val coroutines_native = "1.3.8"
+    val viewmodel = "2.3.0-alpha07"
 
     //test
     val junit = "4.12"

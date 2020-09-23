@@ -1,8 +1,0 @@
-com/vikas/firebaseloginkmm/androidApp/databinding/FragmentHomeBinding.java
- com.vikas.firebaseloginkmm.androidApp.databinding.FragmentHomeBinding
-com/vikas/firebaseloginkmm/androidApp/BuildConfig.java
- com.vikas.firebaseloginkmm.androidApp.BuildConfig
-com/vikas/firebaseloginkmm/androidApp/databinding/FragmentSignupBinding.java
- com.vikas.firebaseloginkmm.androidApp.databinding.FragmentSignupBinding
-com/vikas/firebaseloginkmm/androidApp/databinding/ActivityMainBinding.java
- com.vikas.firebaseloginkmm.androidApp.databinding.ActivityMainBinding
