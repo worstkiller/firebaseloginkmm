@@ -1,7 +1,7 @@
 package com.vikas.firebaseloginkmm.shared.viewmodel
 
-class FirebaseAuthViewModel {
+expect class FirebaseAuthViewModel() {
 
-
+        fun initFirebase()
 
 }

@@ -8,7 +8,7 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.vikas.firebaseloginkmm.androidApp.R
 import com.vikas.firebaseloginkmm.androidApp.databinding.FragmentSignupBinding
-import com.vikas.firebaseloginkmm.shared.viewmodel.FirebaseAuthRepository
+import com.vikas.firebaseloginkmm.shared.repository.FirebaseAuthRepository
 
 /**
  * signup fragment for registering the user

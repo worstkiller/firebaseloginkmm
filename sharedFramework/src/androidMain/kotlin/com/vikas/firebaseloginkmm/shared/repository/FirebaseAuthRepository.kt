@@ -1,19 +1,18 @@
-package com.vikas.firebaseloginkmm.shared.viewmodel
+package com.vikas.firebaseloginkmm.shared.repository
 
+import com.google.firebase.auth.FirebaseAuth
 import com.vikas.firebaseloginkmm.shared.model.FirebaseResponseModel
-import kotlinx.coroutines.flow.Flow
-import kotlinx.coroutines.flow.flow
-import cocoapods.FirebaseAuth.*
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.cancel
 import kotlinx.coroutines.channels.awaitClose
+import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.callbackFlow
-import platform.Foundation.NSError
+import kotlinx.coroutines.flow.flow
 
 @ExperimentalCoroutinesApi
 actual class FirebaseAuthRepository actual constructor() {
 
-    lateinit var firebaseAuthInstance: FIRAuth
+    private val firebaseAuthInstance: FirebaseAuth = FirebaseAuth.getInstance()
 
     actual suspend fun signUpFirebase(
         name: String,
@@ -24,21 +23,14 @@ actual class FirebaseAuthRepository actual constructor() {
             //starting the process with progress
             offer(FirebaseResponseModel.Loading(true))
             //now firebase sdk api call which is again a asynchronous call
-            firebaseAuthInstance.createUserWithEmail(
-                email,
-                password
-            ) { firAuthDataResult: FIRAuthDataResult?, nsError: NSError? ->
-                if (firAuthDataResult != null) {
-                    offer(
-                        FirebaseResponseModel.Success(
-                            firAuthDataResult.user.email ?: "",
-                            firAuthDataResult.user.email ?: ""
-                        )
-                    )
-                } else {
-                    offer(FirebaseResponseModel.Failure(nsError?.description))
+            firebaseAuthInstance.createUserWithEmailAndPassword(email, password)
+                .addOnCompleteListener {
+                    if (it.isSuccessful) {
+                        offer(FirebaseResponseModel.Success(name, it.result?.user?.email ?: ""))
+                    } else {
+                        offer(FirebaseResponseModel.Failure(it.exception?.message ?: ""))
+                    }
                 }
-            }
             awaitClose { cancel() }
         }
     }
@@ -54,4 +46,5 @@ actual class FirebaseAuthRepository actual constructor() {
             }
         }
     }
+
 }

@@ -1,4 +1,4 @@
-package com.vikas.firebaseloginkmm.shared.viewmodel
+package com.vikas.firebaseloginkmm.shared.repository
 
 import com.vikas.firebaseloginkmm.shared.model.FirebaseResponseModel
 import kotlinx.coroutines.flow.Flow
