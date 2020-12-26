@@ -11,7 +11,7 @@ struct ContentView: View {
             } else {
                 SignUpView(signUpViewModel: signUpViewModel)
             }
-        }.background(Color.init(hex: Utils.WINDOW_COLOR))
+        }.padding(.top, 4.0)
     }
 }
 

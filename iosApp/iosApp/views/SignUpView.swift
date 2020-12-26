@@ -20,7 +20,10 @@ struct SignUpView: View {
             if signUpViewModel.showLoader {
                 ProgressView().frame(width: 64, height: 64, alignment: .center)
             } else {
-                getSignUpActiveView()
+                ScrollView {
+                    getSignUpActiveView()
+                }.background(Color(hex: Utils.WINDOW_COLOR))
+                    .keyboardResponsive()
             }
         }
     }
@@ -30,7 +33,7 @@ struct SignUpView: View {
         VStack {
             
             Rectangle()
-            .edgesIgnoringSafeArea(.top)
+                .edgesIgnoringSafeArea(.top)
                 .foregroundColor(Color.init(hex: Utils.COLOR_PRIMARY))
                 .frame(height: 0)
             
@@ -44,45 +47,59 @@ struct SignUpView: View {
                 Text("Sign in").foregroundColor(Color(hex: Utils.COLOR_TEXT_SECONDARY))
             }.padding(.all)
             
-            Text("Create your \naccount")
+            Text("Create your\naccount")
                 .fontWeight(.bold)
-                .font(.title).multilineTextAlignment(.center)
-                .padding([.top,.bottom])
+                .font(.title)
+                .multilineTextAlignment(.center)
+                .frame(maxWidth: .infinity, alignment: .center)
+            
+            Spacer().frame(height: 35.0)
             
             Image(Utils.DOGGO_IMAGE).resizable().frame(width: 120, height: 120, alignment: .center)
             
-            Spacer()
+            Spacer().frame(height: 70.0)
             
             VStack {
                 
-                HStack {
-                    TextField("Your Name", text: $name).padding(.all)
-                }.background(RoundedRectangle(cornerRadius:30).foregroundColor(Color.white))
-                    .padding([.trailing,. leading, .bottom]).shadow(radius: 4)
+                TextField("Name", text: $name)
+                    .padding(20)
+                    .font(.headline)
+                    .background(RoundedRectangle(cornerRadius: 30).foregroundColor(Color.white).shadow(radius: 4.0, x: 0.0, y: 4.0))
                 
-                HStack {
-                    TextField("Email", text: $email).padding(.all)
-                }.background(RoundedRectangle(cornerRadius:30).foregroundColor(Color.white)).padding([.trailing,. leading, .bottom]).shadow(radius: 4)
+                Spacer().frame(height: 25.0)
                 
-                HStack {
-                    TextField("Password", text: $password).padding(.all)
-                }.background(RoundedRectangle(cornerRadius:30).foregroundColor(Color.white)).padding([.trailing,. leading]).shadow(radius: 4)
+                TextField("Email", text: $email)
+                    .padding(20)
+                    .font(.headline)
+                    .background(RoundedRectangle(cornerRadius: 30).foregroundColor(Color.white).shadow(radius: 4.0, x: 0.0, y: 4.0))
                 
-            }.padding([.leading, .bottom, .trailing])
+                Spacer().frame(height: 25.0)
+                
+                TextField("Password", text: $password)
+                    .padding(20)
+                    .font(.headline)
+                    .background(RoundedRectangle(cornerRadius: 30).foregroundColor(Color.white).shadow(radius: 4.0, x: 0.0, y: 4.0))
+                
+                Spacer().frame(height: 25.0)
+                
+            }.padding([.leading, .trailing], 30.0)
+            
+            Spacer().frame(height: 50.0)
             
             Button(action: {
                 let signUpModel = SignUpRequest(name: self.name.description, email: self.email.description, password: self.password.description)
                 self.signUpViewModel.onSignUpClick(signUpModel)
             }){
                 Text("Create your account")
-                    .font(.subheadline)
-                    .padding(.all).foregroundColor(Color.white)
-            }.background(RoundedRectangle(cornerRadius:30)
-                .foregroundColor(Color.init(hex: Utils.COLOR_ACCENT))).padding(.all).shadow(radius: 4)
+                    .padding(20)
+                    .font(.headline)
+                    .foregroundColor(Color.white)
+                    .frame(maxWidth: .infinity)
+                    .background(RoundedRectangle(cornerRadius: 30.0).foregroundColor(Color(hex: Utils.COLOR_ACCENT)).shadow(radius: 4.0, x: 0.0, y: 4.0))
+                    .padding([.leading, .trailing], 30.0)
+            }
             
-            Spacer()
-            Spacer()
-            
+            Spacer().frame(height: 25.0)
             
         }
     }
