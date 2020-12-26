@@ -10,7 +10,7 @@ import kotlinx.coroutines.flow.callbackFlow
 import kotlinx.coroutines.flow.flow
 
 @ExperimentalCoroutinesApi
-actual class FirebaseAuthViewModel actual constructor() {
+actual class FirebaseAuthRepository actual constructor() {
 
     private val firebaseAuthInstance: FirebaseAuth = FirebaseAuth.getInstance()
 
@@ -36,7 +36,15 @@ actual class FirebaseAuthViewModel actual constructor() {
     }
 
     actual suspend fun getLoggedInUserData(): Flow<FirebaseResponseModel> {
-        return flow { emit(FirebaseResponseModel.Success("", "")) }
+        return flow {
+            if (firebaseAuthInstance.currentUser != null) {
+                val email = firebaseAuthInstance.currentUser!!.email ?: ""
+                val name = firebaseAuthInstance.currentUser!!.displayName ?: ""
+                emit(FirebaseResponseModel.Success(name, email))
+            } else {
+                emit(FirebaseResponseModel.Failure())
+            }
+        }
     }
 
 }

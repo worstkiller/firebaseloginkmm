@@ -1,4 +1,4 @@
-package com.vikas.firebaseloginkmm.androidApp
+package com.vikas.firebaseloginkmm.androidApp.ui.home
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,7 +7,6 @@ import android.view.ViewGroup
 import androidx.activity.addCallback
 import androidx.fragment.app.Fragment
 import com.vikas.firebaseloginkmm.androidApp.databinding.FragmentHomeBinding
-import com.vikas.firebaseloginkmm.androidApp.databinding.FragmentSignupBinding
 
 /**
  * signup fragment for registering the user
@@ -20,9 +19,8 @@ class HomeFragment : Fragment() {
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
-        binding = FragmentHomeBinding.inflate(inflater)
-        return binding.root
+    ): View {
+        return FragmentHomeBinding.inflate(inflater).also { binding = it }.root
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {

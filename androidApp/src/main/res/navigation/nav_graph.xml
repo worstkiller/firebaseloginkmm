@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/signUpFragment"
-        android:name="com.vikas.firebaseloginkmm.androidApp.SignUpFragment"
+        android:name="com.vikas.firebaseloginkmm.androidApp.ui.signup.SignUpFragment"
         android:label="SignUpFragment"
         tools:layout="@layout/fragment_signup" >
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.vikas.firebaseloginkmm.androidApp.HomeFragment"
+        android:name="com.vikas.firebaseloginkmm.androidApp.ui.home.HomeFragment"
         android:label="HomeFragment"
         tools:layout="@layout/fragment_home" />
 

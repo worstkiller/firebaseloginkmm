@@ -17,7 +17,6 @@ repositories {
 kotlin {
     android()
     iosX64()
-    iosArm64()
 
     cocoapods {
         // Configure fields required by CocoaPods.
@@ -54,11 +53,9 @@ kotlin {
         }
 
         val iosX64Main by getting
-        val iosArm64Main by getting
         val iosX64Test by getting
-        val iosArm64Test by getting
 
-        configure(listOf(iosArm64Main, iosX64Main)) {
+        configure(listOf(iosX64Main)) {
             dependencies {
                 implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core-native:${Versions.coroutines_native}")
             }
