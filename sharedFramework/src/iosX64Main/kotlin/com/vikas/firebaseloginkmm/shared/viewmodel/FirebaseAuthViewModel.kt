@@ -1,10 +1,13 @@
 package com.vikas.firebaseloginkmm.shared.viewmodel
 
-import cocoapods.FirebaseAuth.*
+import cocoapods.FirebaseCore.FIRApp
+import platform.Foundation.version
+import platform.UIKit.UIApplication
 
 actual class FirebaseAuthViewModel actual constructor() {
 
     actual fun initFirebase() {
-        print("firebase is initilized")
+        FIRApp()
+        print("Firebase is initialized ${UIApplication.version()}")
     }
 }

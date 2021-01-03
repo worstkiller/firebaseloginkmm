@@ -23,6 +23,7 @@ kotlin {
         summary = "Kotlin Multiplatform Firebase login sample"
         homepage = "https://github.com/worstkiller/firebaseloginkmm"
         pod("FirebaseAuth")
+        pod("FirebaseCore")
         frameworkName = "sharedFramework"
     }
 
