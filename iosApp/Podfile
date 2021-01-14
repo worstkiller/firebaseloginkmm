@@ -7,9 +7,9 @@ target 'iosApp' do
 
   # Pods for iosApp
   # pod 'Firebase/Analytics'
-
+	pod 'sharedFramework', :path => '../sharedFramework/'
   target 'iosAppTests' do
-    inherit! :search_paths
+inherit! :search_paths
     # Pods for testing
   end
 

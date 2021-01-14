@@ -23,7 +23,6 @@ struct SignUpView: View {
                 ScrollView {
                     getSignUpActiveView()
                 }.background(Color(hex: Utils.WINDOW_COLOR))
-                    .keyboardResponsive()
             }
         }
     }

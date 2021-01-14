@@ -7,7 +7,7 @@ import platform.UIKit.UIApplication
 actual class FirebaseAuthViewModel actual constructor() {
 
     actual fun initFirebase() {
-        FIRApp()
+        FIRApp.configure()
         print("Firebase is initialized ${UIApplication.version()}")
     }
 }

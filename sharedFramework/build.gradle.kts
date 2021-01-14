@@ -17,6 +17,7 @@ repositories {
 kotlin {
     android()
     iosX64()
+    iosArm64()
 
     cocoapods {
         // Configure fields required by CocoaPods.
@@ -55,11 +56,18 @@ kotlin {
 
         val iosX64Main by getting
         val iosX64Test by getting
+        val iosArm64Main by getting
 
-        configure(listOf(iosX64Main)) {
+        configure(listOf(iosArm64Main, iosX64Main)) {
             dependencies {
                 implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core-native:${Versions.coroutines_native}")
             }
+        }
+    }
+
+    targets.withType<org.jetbrains.kotlin.gradle.plugin.mpp.KotlinNativeTarget> {
+        binaries.withType<org.jetbrains.kotlin.gradle.plugin.mpp.Framework> {
+            isStatic = false
         }
     }
 }
@@ -78,7 +86,7 @@ android {
         }
     }
 }
-val packForXcode by tasks.creating(Sync::class) {
+/*val packForXcode by tasks.creating(Sync::class) {
     group = "build"
     val mode = System.getenv("CONFIGURATION") ?: "DEBUG"
     val sdkName = System.getenv("SDK_NAME") ?: "iphonesimulator"
@@ -90,4 +98,4 @@ val packForXcode by tasks.creating(Sync::class) {
     from({ framework.outputDirectory })
     into(targetDir)
 }
-tasks.getByName("build").dependsOn(packForXcode)
+tasks.getByName("build").dependsOn(packForXcode)*/
