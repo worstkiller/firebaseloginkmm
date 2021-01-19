@@ -64,12 +64,6 @@ kotlin {
             }
         }
     }
-
-    targets.withType<org.jetbrains.kotlin.gradle.plugin.mpp.KotlinNativeTarget> {
-        binaries.withType<org.jetbrains.kotlin.gradle.plugin.mpp.Framework> {
-            isStatic = false
-        }
-    }
 }
 android {
     compileSdkVersion(AppConfig.compileSdk)
